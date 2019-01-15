@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@import '@/utils/utils.scss';
+
+.title {
+  text-align: center;
+  font-size: r(44);
+  color: #333;
+}
+.link {
+  padding-left: r(10);
+  line-height: r(30);
+}

@@ -1,0 +1,16 @@
+@function r( $px) {
+  @return $px*7.2/$designWidth+rem;
+}
+$designWidth : 750; 
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: r(28);
+  background: #fff;
+  color: #1a1a1a;
+  overflow-x: hidden;
+}
+

@@ -1,0 +1,5 @@
+@function r( $px) {
+  @return $px*7.2/$designWidth+rem;
+}
+$designWidth : 750; 
+$baseColor: green; 
